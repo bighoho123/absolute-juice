@@ -1,0 +1,50 @@
+.banner {
+	position:relative;
+	left:0;
+	top:0;
+	width:100%;
+	height:970px;
+	background-image:url("../images/produce1.jpg");
+}
+.logo-on-banner {
+	text-align: center;
+	margin-top:300px;
+	color:#FFFFFF;
+}
+.dash-in-middle {
+	border-bottom: 3px solid #FFFFFF; 
+    height:40px;
+}
+body {
+	font-family: "Microsoft YaHei",微软雅黑,STHei,华文黑体 !important;
+}
+.navbar {
+   background:rgba(114, 178, 49, 0.6);
+   border:0;
+}
+.sticky-header {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	color:#FFFFFF !important;
+}
+.nav li{
+	text-align:center;
+}
+.nav li a {
+	color:#363940 !important;
+	font-size:16px;
+	font-weight:bold;
+}
+.nav li:hover{
+	border-bottom: 3px solid #7D848C;
+}
+.blur-border {
+	position:absolute;
+	top:-10px;
+	left:0;
+	z-index: 1;
+	background:rgba(0,0,0,0.5);
+	filter: blur(15px);
+}
